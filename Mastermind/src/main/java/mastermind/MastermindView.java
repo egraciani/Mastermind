@@ -14,7 +14,7 @@ public class MastermindView {
     private int gameType;
     
     public void Mastermind() {
-        initialMessage = "Mastermind" ;//&& "/n" && "1. Partida" && "/n" && "2. Demo";
+        initialMessage = "Mastermind. Opciones: 1. Partida y 2. Demo";
         chooseGameModeMessage = "Elige un modo de juego";
         introduceAttemptMesage = "Introduce el intento";
     }

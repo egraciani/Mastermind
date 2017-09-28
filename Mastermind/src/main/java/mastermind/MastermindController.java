@@ -5,7 +5,6 @@ public class MastermindController {
     MastermindModel model;
     
     public MastermindController(MastermindView view, MastermindModel model) {
-        //TODO
         this.view = view;
         this.model = model;
         
@@ -33,7 +32,7 @@ public class MastermindController {
             codeAttempt = view.readAttempt();
             results = model.newGuess(codeAttempt);
             
-            if(model.isWin()) {
+            if(model.isGameWon()) {
                 view.showWinMessage();
             }
             else {

@@ -60,13 +60,12 @@ public class MastermindModel {
     
     public String generateRandomCode() {
         codeGeneratedToGuess = "AARR";
-        //TODO: create algorithm to randomize code (either with Array/List and then convert to String or drirectly with String)
+        //TODO: create algorithm to randomize code (either with Array/List and then convert to String or directly with String)
         return codeGeneratedToGuess;
     }
     
     public String checkCodeAttempt(String codeAttempt) {
-        //TODO: create comparison algorithm
-        //compare codeGenerated and codeAttempt
+        //TODO: create comparison algorithm (compare codeGenerated and codeAttempt)
         return "has ganado";
     }
     
@@ -108,7 +107,7 @@ public class MastermindModel {
         return false;
     }
     
-    public boolean isWin() {
+    public boolean isGameWon() {
         //TODO
         return true;
     }
